@@ -1,10 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-InFilePath|stem|153060ede8801fbd|7c3dee8e7218e0e6|2c530c1562a7fbd1|-242576136|/Volumes/OWC Envoy Ultra/NTAvisualizationInR/TheData/PlasmaNTABiorep123.xlsx|t20371.7783806033s|s11121b|11121|file|local|vector|||0.841||
-TheData|stem|5f0f8d8323c1a8ec|03ae9367d6bdc68b|95c7e5de44ededb2|1791303010||t20371.795414302s|s704b|704|rds|local|vector|||0.015||
-vanillaBoxPlot|function|cf2ca7e6e5cf487e
-PrettyTable|stem|175cede1f0c1092e|5e2bbdd0897314d1|cfac95322bb08cd1|1976069002||t20371.8169989231s|s767b|767|rds|local|vector|||0.008||
+vanillaPlotByCatergory|function|69516ac7ed510451
+PrettyTable|stem|eec5679591cbcec4|dbbf7eeb11a986c6|6e2f1f7d5a7eb9d8|1976069002|/Volumes/OWC Envoy Ultra/NTAvisualizationInR/TheOutput/TheDataTable.tsv|t20381.7508357661s|s802b|802|file|local|vector|||0.12||
+SimpleGraph|stem|3c9cddd3010e5786|3b004e4cada3dd3e|329aecf1f27c7eed|663433052|/Volumes/OWC Envoy Ultra/NTAvisualizationInR/TheOutput/Concentration.png|t20381.7594709251s|s102807b|102807|file|local|vector|||0.284||
+readNTA|function|9697b745c112f2dd
 dirksTheme|function|66f6c529368dd3a7
-readNTA|function|bfece021bc23b869
-TableByBiorep|function|82e96ba7c64c2fcb
-vanillaPlotByCatergory|function|c924d8c38133e05d
-SimpleGraph|stem|7d118c8d45d3aed4|39bd28c72f96fe9f|4d2777827df1eb35|663433052|/Volumes/OWC Envoy Ultra/NTAvisualizationInR/TheOutput/Concentration.png|t20371.82580797s|s112138b|112138|file|local|vector|||0.208|log-10 transformation introduced infinite values.|
+TableByBiorep|function|a7aaf7568fe52b8c
+nta_PlotByCatergory|function|1976f2ccb7b1bab7
+InFilePath|stem|dc2e8ef763f2d24c|7c3dee8e7218e0e6|2c530c1562a7fbd1|-242576136|/Volumes/OWC Envoy Ultra/NTAvisualizationInR/TheData/PlasmaNTABiorep123.xlsx|t20381.7600985155s|s11195b|11195|file|local|vector|||0.361||
+TheData|stem|7192aa1cb7da30b0|03ae9367d6bdc68b|63b1a1ce444e7980|1791303010||t20381.7601640623s|s708b|708|rds|local|vector|||0.017||

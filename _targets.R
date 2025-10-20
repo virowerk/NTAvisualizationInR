@@ -2,7 +2,7 @@
 library(targets)
 
 # Set WD to source file ----
-# library(tarchetypes) # Load other packages as needed.
+
 
 # Set target options:
 tar_option_set(
@@ -23,7 +23,7 @@ list(
   # 1. Input file path  ----
   #(only defines the file path)
   tar_target(
-    InFilePath, 
+    name = InFilePath, 
     here::here("TheData", 
                "PlasmaNTABiorep123.xlsx"),
     format = "file"
@@ -40,16 +40,20 @@ list(
   # 2. Pretty table ----
   #(shared by all steps) 
   tar_target(
-    PrettyTable,
-    TableByBiorep(TheData)
+    name = PrettyTable,
+    TableByBiorep(TheData = TheData,
+                  OutFile = here::here("TheOutput", 
+                                       "TheDataTable.tsv")
+                  ),
+    format = "file"
   ),
   
   
   # 3. graph  ----
   #(shared by all steps) 
   tar_target(
-    SimpleGraph,
-    vanillaPlotByCatergory(
+    name = SimpleGraph,
+    nta_PlotByCatergory(
       InFile = TheData,
       OutFile = here::here("TheOutput", 
                          "Concentration.png")
